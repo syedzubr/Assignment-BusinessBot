@@ -1,0 +1,19 @@
+.user-container{
+    border: 0.3px solid grey;
+    display: flex;
+    max-width: 300px;
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+
+.user-container img{
+    border-radius: 50%;
+}
+
+.user-container > div{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
