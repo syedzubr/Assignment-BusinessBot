@@ -1,7 +1,7 @@
-<div class="user-container">
-    <img alt="user" src="https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/443.jpg">
+<div class="user-container" (click)="getUserPost($event)" id={{userData.id}}>
+    <img alt="user" src={{userData.avatar}}>
     <div>
-        <span>Name</span>
-        <span>Eloise Weber</span>
+        <h5>Name</h5>
+        <strong>{{userData.name}}</strong>
     </div>
 </div>

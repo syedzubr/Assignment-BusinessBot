@@ -1,0 +1,10 @@
+<div class="card">
+  <h2 class="card-header" *ngIf="ID == 0; else otherPlace">Click on Users to get their Posts</h2>
+  <ng-template #otherPlace>
+    <h2 class="card-header">Posts of User {{ID}}</h2>
+  </ng-template>
+  <div class="card-body" *ngFor="let post of POSTS">
+    <h2>{{ post.Title }}</h2>
+    <p>{{ post.content }}</p>
+  </div>
+</div>

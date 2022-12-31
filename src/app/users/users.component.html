@@ -1,1 +1,11 @@
-<p>users works!</p>
+<div class="card">
+  <h2 class="card-header">Users</h2>
+  <div class="loading" *ngIf="USERS.length == 0; else other">
+    Loading ...
+  </div>
+  <ng-template #other>
+    <div class="card-body" *ngFor="let user of USERS">
+      <app-user [userData]="user"></app-user>
+    </div>
+  </ng-template>
+</div>

@@ -1,0 +1,12 @@
+.card{
+    background-color:darksalmon;
+}
+
+.form-inp {
+    padding: 10px;
+}
+
+button{
+    margin: 10px 0;
+    float: right;
+}

@@ -1,0 +1,35 @@
+.app-container{
+    margin: 1rem 2rem;
+}
+
+.header{
+    background-color: whitesmoke;
+}
+
+.user-post-container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.users{
+    min-width: 300px;
+    width: 400px;
+    flex-grow: 1;
+}
+
+.post {
+    min-width: 400px;
+    width: 500px;
+    margin: 0 10px;
+    flex-grow: 1;
+}
+
+.new-post {
+    min-width: 300px;
+    width: 400px;
+    flex-grow: 1;
+}
+
+@medi

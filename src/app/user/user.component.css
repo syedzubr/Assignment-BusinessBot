@@ -1,9 +1,10 @@
 .user-container{
     border: 0.3px solid grey;
     display: flex;
-    max-width: 300px;
     padding: 0.5rem;
     border-radius: 10px;
+    background-color: white;
+    min-width: 300px;
 }
 
 .user-container img{
